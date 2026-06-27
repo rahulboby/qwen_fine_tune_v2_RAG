@@ -14,7 +14,7 @@ class Reranker:
         self,
         query,
         candidates,
-        top_k=4
+        top_k=5
     ):
 
         pairs = [

@@ -5,10 +5,10 @@ embedding:
   model: "sentence-transformers/all-MiniLM-L6-v2"
 
 retrieval:
-  top_k: 4
+  top_k: 5
   chunk_size: 1500
   chunk_overlap: 80
-  faiss_candidates: 10
+  faiss_candidates: 30
 
 generation:
   max_new_tokens: 300
